@@ -3,7 +3,7 @@
 
 .main-section{
     background: linear-gradient(to right bottom, rgba(255,104,18,0.587), #fc60455d), url("../assets/main.jpg");
-    height: 80vh;
+    height: 50%;
     background-size: cover;
     overflow: hidden;
 
@@ -22,10 +22,11 @@
         button:hover{
             @include hover;
         } 
-        .inside-text{
-            p{
-                color: $main-color;
-            }
-        }  
     }
+    .inside-text{
+        margin-left: 1rem;
+        p{
+            color: $main-color;
+        }
+    }  
 }
