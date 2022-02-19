@@ -40,6 +40,12 @@
             .search{
                 @include flex-center;
                 color: $gray-color;
+
+
+                .search-icon{
+                    font-size: 15px;
+                }
+    
             }
             .sch-btn{
                 background: none;
@@ -62,6 +68,9 @@
                     color: $gray-color;
                     text-decoration: none;
                 }
+            }
+            .basket{
+                color: $basket-color
             }
         }
 
