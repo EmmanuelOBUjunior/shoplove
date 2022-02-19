@@ -1,0 +1,10 @@
+@import './colors';
+
+.header{
+    position: sticky;
+    top:0;
+
+    nav{
+        display: flex;
+    }
+}
