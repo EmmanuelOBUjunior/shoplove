@@ -16,15 +16,7 @@
             text-shadow: 3px 3px $main-color;
         }
         button{
-            background: none;
-            padding: 10px 2rem;
-            border-radius: 20px;
-            border: 1px solid $main-color;
-            color: $main-color;
-            font-weight: bolder;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 1rem;
+            
         }
         button:hover{
             transform: scale(120%);
