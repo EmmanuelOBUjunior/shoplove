@@ -32,7 +32,7 @@ const Header = () => {
                     <button>
                         <Link to= "signup">Sign Up</Link>
                     </button>
-                    <ShoppingBasket/>
+                    <ShoppingBasket className='basket'/>
                 </div>
             </div>
         </nav>
