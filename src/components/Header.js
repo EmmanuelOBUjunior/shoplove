@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {SearchOutlined} from '@mui/icons-material'
+import {ShoppingBasket} from '@mui/icons-material'
 
 const Header = () => {
   return (
@@ -22,6 +23,15 @@ const Header = () => {
                 <div className="search">
                     <SearchOutlined className= 'search-icon'/>
                     <button className= "sch-btn">Search</button>
+                </div>
+                <div className="right-buttons">
+                    <button>
+                        <Link to= "/login">Login</Link>
+                    </button>
+                    <button>
+                        <Link to= "signup">Sign Up</Link>
+                    </button>
+                    <ShoppingBasket/>
                 </div>
             </div>
         </nav>
