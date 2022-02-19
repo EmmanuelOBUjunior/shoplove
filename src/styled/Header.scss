@@ -35,8 +35,35 @@
         }
         .right{
             @include flex-center;
+
+
+            .search{
+                @include flex-center;
+                color: $gray-color;
+            }
+            .sch-btn{
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
         }
     
+        .right-buttons{
+            @include flex-center;
+            margin-right: 1rem;
+
+            button{
+                margin: 0 0.8rem;
+                background: none;
+                border: none;
+                cursor: pointer;
+
+                a{
+                    color: $gray-color;
+                    text-decoration: none;
+                }
+            }
+        }
 
     }
 }

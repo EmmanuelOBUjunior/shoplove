@@ -18,7 +18,7 @@ const Header = () => {
                 </li>
             </ul>
             <div className="logo"> 
-                <h1>ShopLiVe</h1>
+                <h1>ShopLoVe</h1>
             </div>
             <div className="right">
                 <div className="search">
