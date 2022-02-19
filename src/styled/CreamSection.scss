@@ -1,0 +1,10 @@
+@import './mixins';
+@import './colors';
+
+.main{
+    width: 100%;
+    background-color: $cream-color;
+    padding-bottom: 10rem;
+
+    
+}
