@@ -3,7 +3,7 @@ import '../styled/Section.scss'
 
 const Section = () => {
   return (
-    <section>
+    <section className='main-section'>
 
     </section>
   )
