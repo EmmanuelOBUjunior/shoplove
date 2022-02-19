@@ -1,4 +1,5 @@
 @import './colors';
+@import './mixins';
 
 .main-section{
     background: linear-gradient(to right bottom, rgba(255,104,18,0.587), #fc60455d), url("../assets/main.jpg");
@@ -16,10 +17,10 @@
             text-shadow: 3px 3px $main-color;
         }
         button{
-            
+           @include button 
         }
         button:hover{
-           
+            @include hover;
         }
     }
 }
