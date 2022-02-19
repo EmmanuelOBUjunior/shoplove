@@ -6,7 +6,7 @@ const Section = () => {
     <section className='main-section'>
         <div className="contents">
             <h1>Look Great, Smell Good, Feel Sassy</h1>
-            <div className="bottom-text">
+            <div className="inside-text">
             <p>10% off for all our products</p>
         </div>
             <button>Explore</button>
