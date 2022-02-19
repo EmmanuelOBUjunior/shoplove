@@ -11,5 +11,23 @@
         justify-content: space-between;
         height: 4rem;
         background-color: $main-color;
+
+        .ul-items{
+            list-style: none;
+
+
+            .li-items{
+                a{
+                    margin: 0 1rem;
+                    font-size: 13px;
+                    text-decoration: none;
+
+                    .orange{
+                        color: $orange-color
+                    }
+                }
+            }
+        }
+
     }
 }

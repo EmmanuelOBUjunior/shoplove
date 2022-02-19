@@ -13,7 +13,7 @@ const Header = () => {
                     <Link to = '/women'>Women</Link>
                     <Link to = '/men'>Men</Link>
                     <Link to = '/crispin'>Crispin</Link>
-                    <Link to = '/shop'>The Gift Shop</Link>
+                    <Link to = '/shop' className='orange'>The Gift Shop</Link>
                     <Link to = '/about'>About</Link>
                 </li>
             </ul>
