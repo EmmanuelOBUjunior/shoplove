@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styled/SmallSection.scss'
 
 const SmallSection = () => {
   return (
