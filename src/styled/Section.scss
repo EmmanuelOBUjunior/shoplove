@@ -8,7 +8,7 @@
     overflow: hidden;
 
     .contents{
-        margin: 12rem;
+        margin: 10rem;
         text-align: center;
 
         h1{
@@ -21,6 +21,11 @@
         }
         button:hover{
             @include hover;
-        }
+        } 
+        .bottom-text{
+            p{
+                color: $main-color;
+            }
+        }  
     }
 }
