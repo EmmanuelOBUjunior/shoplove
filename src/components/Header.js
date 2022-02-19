@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {SearchOutlined} from '@mui/icons-material'
 import {ShoppingBasket} from '@mui/icons-material'
+import '../styled/Header.scss'
 
 const Header = () => {
   return (
