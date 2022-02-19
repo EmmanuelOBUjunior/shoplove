@@ -12,7 +12,7 @@ const Header = () => {
                 <li className="li-items">
                     <Link to = '/women'>Women</Link>
                     <Link to = '/men'>Men</Link>
-                    <Link to = '/crispin'>Crispin</Link>
+                    <Link to = '/crispin'>Children</Link>
                     <Link to = '/shop' className='orange'>The Gift Shop</Link>
                     <Link to = '/about'>About</Link>
                 </li>
